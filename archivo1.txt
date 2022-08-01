@@ -1,2 +1,15 @@
-chanchito feliz
-chanchito feliz
+ls: lista de archivos y carpetas
+  ls -a (incluye archivos ocultos)
+pwd: Ubicación donde nos encontramos
+cd: cambio de directorios
+  cd .. vuelve un directorio (en la gerarquía de ubicación)
+mkdir: crea directorios
+rm: elimina archivos o directorios
+  *nota: ver por que lo anoté como rm . (rm punto)
+git init: inicializar un proyecto que vamos a gestionar con git
+git status: indica el estado del repositorio
+  git status -s:
+git add: (espacio archivo, archivo, "carpeta", archivo, "carpeta", etc..) agrega los archivos para seguimiento de guit (commitear)
+git commit -m "mensaje": compromete los archivos para subirlos a git (commitearlos)
+git rm: (espacio archivo... etc) devuelve los archivos a la etapa de stage (los saca de commit)
+git restore --stage: (espacio archivos... etc) devuelve los archivos a un estado anterior (sin borrarlos)
